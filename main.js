@@ -13,6 +13,5 @@ for (var i = 0; i < iss.length; i++){
 document.querySelector('.fa-chevron-right').onclick =
     function(event) {
         let span = event.target.parentNode.querySelector('span')
-        let spanT = event.target.parentNode.childNodes[1].childNodes[1]querySelector()
-        span.innerText ++
+            span.innerText ++
     }
