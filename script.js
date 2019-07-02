@@ -24,7 +24,8 @@ $('window').scroll(function(){
     $('.navbar').removeClass('fixed-top');
   }
 
-})
+})*/
+
 //smooth scroll
 $('.nav-item a, .header-link,#back-to-top').click(function(link){
   link.preventDefault();
