@@ -1,5 +1,5 @@
 
-var iss = document.querySelectorAll('i')
+var iss = document.querySelectorAll('.coeur')
 for (var i = 0; i < iss.length; i++){
     var is = iss[i]
     var roug = function () {
@@ -8,13 +8,11 @@ for (var i = 0; i < iss.length; i++){
     is.addEventListener('click', roug)
 }
 
-// document.querySelector('.left').onclick =
-//     function(event) {
-//         let span = event.target.parentNode.querySelector('p')
-//         span.innerText ++
-//     }
 
-// var p = document.querySelectorAll('.coeur')
-// window.setInterval(function(){
-//     p.classList.toggle('red')
-// },1000)
+
+document.querySelector('.fa-chevron-right').onclick =
+    function(event) {
+        let span = event.target.parentNode.querySelector('span')
+        let spanT = event.target.parentNode.childNodes[1].childNodes[1]querySelector()
+        span.innerText ++
+    }
